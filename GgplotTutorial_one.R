@@ -4,7 +4,7 @@ library(lubridate)
 library(ggplot2)
 library(scales)
 
-#load data
+#load my data
 ############# rotten tomatoes data
 rotten_movies <- fread('~/TheMoviesDataset/data/archive (6)/rotten_tomatoes_movies.csv')
 critics_review <- fread('~/TheMoviesDataset/data/archive (6)/rotten_tomatoes_critic_reviews.csv')
